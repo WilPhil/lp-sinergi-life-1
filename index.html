@@ -68,7 +68,7 @@
     <!-- About Us -->
     <div class="w-auto h-auto bg-[#F5F3FF] flex pt-12 px-10 gap-8 xl:px-44">
       <div class="max-w-[1200px] h-auto m-auto flex max-lg:flex-col">
-        <div class="w-auto h-auto flex flex-col justify-center items-center pr-10 pb-8">
+        <div class="w-auto h-auto flex flex-col justify-center items-center lg:pr-10 pb-8">
           <p class="pb-10 text-3xl lg:text-[40px] font-[600] self-start">
             About Us
           </p>
@@ -233,48 +233,48 @@
       class="max-w-[1200px] h-auto mx-auto flex flex-col-reverse xl:flex-row justify-center items-center py-10">
       <div class="max-w-[200px] h-[266px] xl:min-w-[650px] xl:h-[578px] flex justify-center gap-4">
         <div @click="picture = 1" @mouseenter="picture = 1" style="background-image: url('images/pp1.png');"
-          :class="picture != 1 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer hover:w-full xl:hover:w-[200px] hover:bg-right' : 'w-[110px] xl:w-[200px] bg-right'"
+          :class="picture != 1 ? 'w-[51px] xl:w-[100px] bg-center' : 'w-[125px] bg-center xl:w-[200px] xl:bg-center'"
           class="relative bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
-          <div class="absolute p-2 text-[8px] transition-all duration-500 ease-in-out"
+          <div class="absolute p-2 text-[8px] xl:p-5 xl:text-[15px] transition-all duration-500 ease-in-out"
             :class="picture != 1 ? 'opacity-0' : 'opacity-100'">
-            <p class="text-white">Eka Setiadi</p>
-            <p class="text-[#C4B5FD]">UI/UX Designer</p>
+            <p class="text-white"> Eka Setiadi </p>
+            <p class="text-[#C4B5FD]"> UI/UX Designer </p>
           </div>
         </div>
         <div @click="picture = 2" @mouseenter="picture = 2" style="background-image: url('images/pp2.png');"
-          :class="picture != 2 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer hover:w-full xl:hover:w-[200px] hover:bg-center' : 'w-[110px] xl:w-[200px] bg-center'"
-          class="bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
-          <div class="absolute p-5 text-[15px] transition-all duration-500 ease-in-out"
+          :class="picture != 2 ? 'w-[51px] xl:w-[100px] bg-center' : 'w-[125px] bg-center xl:w-[200px] xl:bg-center'"
+          class="relative bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
+          <div class="absolute p-2 text-[8px] xl:p-5 xl:text-[15px] transition-all duration-500 ease-in-out"
             :class="picture != 2 ? 'opacity-0' : 'opacity-100'">
-            <p class="text-white">Lorem Ipsum</p>
-            <p class="text-[#C4B5FD]">Programmer</p>
+            <p class="text-white"> Lorem Ipsum </p>
+            <p class="text-[#C4B5FD]"> Programmer </p>
           </div>
         </div>
         <div @click="picture = 3" @mouseenter="picture = 3" style="background-image: url('images/pp3.png');"
-          :class="picture != 3 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer xl:hover:w-[200px] hover:bg-center' : 'xl:w-[200px] bg-center'"
-          class="bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
-          <div class="absolute p-5 text-[15px] transition-all duration-500 ease-in-out"
+          :class="picture != 3 ? 'w-[51px] xl:w-[100px] bg-center' : 'w-[125px] xl:w-[200px] bg-center'"
+          class="relative bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
+          <div class="absolute p-2 text-[8px] xl:p-5 xl:text-[15px] transition-all duration-500 ease-in-out"
             :class="picture != 3 ? 'opacity-0' : 'opacity-100'">
-            <p class="text-white">Dolor</p>
-            <p class="text-[#C4B5FD]">Graphic Designer</p>
+            <p class="text-white"> Dolor </p>
+            <p class="text-[#C4B5FD]"> Graphic Designer </p>
           </div>
         </div>
         <div @click="picture = 4" @mouseenter="picture = 4" style="background-image: url('images/pp4.png');"
-          :class="picture != 4 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer xl:hover:w-[200px] hover:bg-center' : 'xl:w-[200px] bg-center'"
-          class="bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
-          <div class="absolute p-5 text-[15px] transition-all duration-500 ease-in-out"
+          :class="picture != 4 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer hover:w-[125px] hover:bg-center xl:hover:w-[200px] xl:hover:bg-right' : 'w-[125px] bg-center xl:w-[200px] xl:bg-center'"
+          class="relative bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
+          <div class="absolute p-2 text-[8px] xl:p-5 xl:text-[15px] transition-all duration-500 ease-in-out"
             :class="picture != 4 ? 'opacity-0' : 'opacity-100'">
-            <p class="text-white">Sit Amor</p>
-            <p class="text-[#C4B5FD]">Project Manager</p>
+            <p class="text-white"> Sit Amor </p>
+            <p class="text-[#C4B5FD]"> Project Manager </p>
           </div>
         </div>
         <div @click="picture = 5" @mouseenter="picture = 5" style="background-image: url('images/pp5.png');"
-          :class="picture != 5 ? 'w-[51px] xl:w-[100px] bg-center hover:cursor-pointer xl:hover:w-[200px] hover:bg-center' : 'xl:w-[200px] bg-center'"
-          class="bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
-          <div class="absolute p-5 text-[15px] transition-all duration-500 ease-in-out"
+          :class="picture != 5 ? 'w-[51px] xl:w-[100px] bg-center' : 'w-[125px] bg-center xl:w-[200px] xl:bg-center'"
+          class="relative bg-cover flex flex-col place-content-end rounded-lg transition-all duration-400 ease-in-out">
+          <div class="absolute p-2 text-[8px] xl:p-5 xl:text-[15px] transition-all duration-500 ease-in-out"
             :class="picture != 5 ? 'opacity-0' : 'opacity-100'">
-            <p class="text-white">Adipiscing Elit</p>
-            <p class="text-[#C4B5FD]">CTO</p>
+            <p class="text-white"> Adipiscing Elit </p>
+            <p class="text-[#C4B5FD]"> CTO </p>
           </div>
         </div>
       </div>
